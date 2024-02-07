@@ -45,18 +45,18 @@ if response.status_code == 200:
 
 if len(info_list) != 0:
     header = ['Counter', 'Name', 'ProfileLink', 'Price', 'Change', 'Status']
-    filename = 'info_list.csv'
+    file_path = 'info_list.csv'
 
     try:
         # Write data to CSV file
-        with open(filename, 'w', newline='', encoding='utf-8') as csvfile:
+        with open(file_path, 'w', newline='', encoding='utf-8') as csvfile:
             writer = csv.DictWriter(csvfile, fieldnames=header)
 
             writer.writeheader()
 
             for item in info_list:
                 writer.writerow(item)
-        print(f"These information saved in {filename} successfully.")
+        print(f"These information saved in {file_path} successfully.")
     except Exception as e:
         print("An error occurred:", e)
 
