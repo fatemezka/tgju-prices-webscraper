@@ -26,3 +26,7 @@ To run this project
 ## Features
 
 - if you want to change the csv file name or path you can change the *file_path* variable.
+
+
+## Sample data table
+<img width="615" alt="Screenshot 1402-11-18 at 1 19 03 in the afternoon" src="https://github.com/fatemezka/tgju-prices-webscraper/assets/77573694/473a47c3-8e4d-477b-ae3a-0ef4d391ae12">
